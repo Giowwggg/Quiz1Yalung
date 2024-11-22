@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Crypto Showcase</title>
+
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: black;
+      color: #333;
+    }
+    .crypto-card {
+      background-color: #ffffff;
+      border-radius: 10px;
+      padding: 20px;
+      margin-bottom: 20px;
+      display: flex;
+      align-items: center;
+      border: 2px solid #4caf50; 
+      box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+    }
+    .crypto-logo {
+      width: 90px;
+      height: 90px;
+      border-radius: 50%;
+      overflow: hidden;
+      margin-right: 20px;
+      border: 2px solid #333;
+    }
+    .crypto-logo img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .crypto-details {
+      flex: 1;
+    }
+    .crypto-title {
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: # orange;
+      margin-bottom: 10px;
+    }
+    .crypto-description {
+      font-size: 0.95rem;
+      color: #555;
+      margin-bottom: 10px;
+    }
+    .crypto-value {
+      font-weight: bold;
+      color: #ff5722;
+      margin-bottom: 10px;
+    }
+    .btn-custom {
+      margin-right: 10px;
+      background-color: #4caf50;
+      color: white;
+      border: none;
+    }
+    .btn-custom:hover {
+      background-color: #45a049;
+    }
+    .btn-info {
+      background-color: #008cba;
+      color: white;
+      border: none;
+    }
+    .btn-info:hover {
+      background-color: #007bb5;
+    }
+    .alert-custom {
+      background-color: #e8f5e9;
+      border: 1px solid #4caf50;
+      color: #skyblue;
+    }
+    .h1 {
+      background-color: orange;
+    }
+    
+
+  </style>
+</head>
+<body>
+<div class="container mt-5">
+  <h1 class="text-center">Crypto Showcase</h1>
+  <p class="text-center">Explore some of the top-performing cryptocurrencies!</p>
+
+  <!-- First Cryptocurrency -->
+  <div class="crypto-card">
+    <div class="crypto-logo">
+      <img src="arbitrum.webp" alt="Arbitrum Logo">
+    </div>
+    <div class="crypto-details">
+      <div class="crypto-title">Arbitrum</div>
+      <div class="crypto-description">
+        Arbitrum is a layer-2 scaling solution for Ethereum, designed to improve transaction speeds and lower costs. It's popular for decentralized applications due to its efficiency and compatibility with Ethereum smart contracts.
+      </div>
+      <div class="crypto-value">PHP Value: PHP 42.75</div>
+      <button class="btn btn-dark">Learn More</button>
+      <button class="btn btn-dark">Trade Now</button>
+    </div>
+  </div>
+
+  <!-- Second Cryptocurrency -->
+  <div class="crypto-card">
+    <div class="crypto-logo">
+      <img src="1_lKHjKj1SSVQe4XjosHjrow.png" alt="NEAR Logo">
+    </div>
+    <div class="crypto-details">
+      <div class="crypto-title">NEAR Protocol</div>
+      <div class="crypto-description">
+        NEAR Protocol is a blockchain platform designed to deliver fast and low-cost decentralized applications. It's known for its user-friendly development tools and eco-friendly approach.
+      </div>
+      <div class="crypto-value">PHP Value: PHP 125.00</div>
+      <button class="btn btn-dark">Learn More</button>
+      <button class="btn btn-dark">Trade Now</button>
+    </div>
+  </div>
+
+  <!-- Third Cryptocurrency -->
+  <div class="crypto-card">
+    <div class="crypto-logo">
+      <img src="3945.png" alt="Harmony Logo">
+    </div>
+    <div class="crypto-details">
+      <div class="crypto-title">Harmony</div>
+      <div class="crypto-description">
+        Harmony (ONE) is a blockchain platform designed to facilitate cross-chain interoperability and scalable decentralized applications. It's widely used for decentralized finance (DeFi) and NFTs.
+      </div>
+      <div class="crypto-value">PHP Value: PHP 5.90</div>
+      <button class="btn btn-dark">Learn More</button>
+      <button class="btn btn-dark">Trade Now</button>
+    </div>
+  </div>
+
+
+
+<!-- Bootstrap JS and dependencies -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
